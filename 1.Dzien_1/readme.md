@@ -36,6 +36,7 @@ W bazie danych o nazwie ```cinemas_db``` stwórz następujące tabele:
 * Film: id:int, name: string, opis: string
 * Bilet: id: int, ilość: int, cena:float
 * Płatność: id: int, typ: string, data: date
+
 Pamiętaj o tym żeby założyć odpowiednie atrybuty na pola (np.: każde ID powinno być kluczem głównym, być automatycznie numerowane). 
 Najpierw napisz odpowiednie zapytania SQL używając PHPmyAdmin (lub konsoli), potem w pliku exercise2.php napisz skrypt który będzie tworzył taką bazę danych (pamiętaj o stworzeniu i zamknięciu połączenia).
 Pamiętaj że jeżeli tabelka już istnieje to nie będzie się jej dało stworzyć.
@@ -64,6 +65,7 @@ Napisz zapytania SQL które:
 * Wybiorą wszystkie bilety na których cena jest większa od 15.30
 * Wybiorą wszystkie bilety na których ilość jest większa od 3
 * Wybiorą wszystkie filmy które mają rating większy niż 6.5
+
 Wszystkie zapytania dodaj do pliku php jako komentarz.
 
 Napisz skrypt który wyświetli na stronie wszystkie filmy, kina, bilety i płatności.
@@ -72,6 +74,7 @@ Napisz skrypt który wyświetli na stronie wszystkie filmy, kina, bilety i płat
 Napisz zapytanie które usunie:
 * Wszystkie kina kończące się na literę Z
 * Wszystkie płatności starsze niż 5 dni
+
 Wszystkie zapytania dodaj do pliku php jako komentarz.
 
 Do skryptu z zadania 4 dopisz link (widoczny przy każdym elemencie wczytanym z bazy danych), który usunie ten wpis z bazy.
