@@ -11,7 +11,7 @@ Stwórz nową tabelkę ```UserAdress```. Niech zawiera:
 Niech będzie połączona relacją jeden do jednego z tabelką ```Users```. Napisz kilka zapytań SQL które wpowadzą adresy dla istniejących już uzytkowników.
 
 ### Ćwiczenie 2 - Relacja jeden do wielu
-Stwórz nową tabelkę ```Opinins```. Niech zawiera:
+Stwórz nową tabelkę ```Opinions```. Niech zawiera:
 * description: string
 
 Niech będzie też połączona z tabelką ```Products``` relacją jeden do wielu (produkt ma wiele opinii, opinia jest przypisana do jednego produktu).
@@ -53,7 +53,7 @@ Pamiętaj żeby najpierw przetestować zapytania SQL w konsoli lub panelu admini
 ### Ćwiczenie 3 - Relacja wiele-1
 Połącz tabele seanse i bilety za pomocą relacji wiele do 1 (na seans może być sprzedanych wiele biletów, jeden bilet może być tylko na jeden seans).
 
-Napisz stronę na której możemy kupić bilet na wybrany seans. Seanse niech będą wybeirane z listy drop-down (użyj do tego tagu ```<select>```). Żeby to zrobić musisz wczytać z bazy danych wszystkie dostepne seanse i pętlą ```for``` wygenerować input do formularza.  
+Napisz stronę na której możemy kupić bilet na wybrany seans. Seanse niech będą wybierane z listy drop-down (użyj do tego tagu ```<select>```). Żeby to zrobić musisz wczytać z bazy danych wszystkie dostepne seanse i pętlą ```for``` wygenerować ```option``` do formularza.  
 Napisz stronę na której wyświetlamy dane z biletu (id seansu, nazwa filmu, nazwa kina, cena biletu).
 
 Pamiętaj żeby najpierw przetestować zapytania SQL w konsoli lub panelu administracyjnym, dopiero potem pisać kod PHP.

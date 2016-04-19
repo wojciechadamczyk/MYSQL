@@ -8,9 +8,17 @@ Następnie napisz skrypt php który stworzy połączenie do tej bazy danych.
 
 ### Ćwiczenie 2 - Tworzenie tabel z danymi.
 W bazie danych o nazwie ```exercises_db``` stwórz następujące tabele:
-* Product: id: int, name: string, description: string
-* Order: id:int, description: string
-* Client: id: int, name:string, surname:string
+* Product:
+  * id: int
+  * name: string
+  * description: string
+* Order:
+  * id:int
+  * description: string
+* Client:
+  * id: int
+  * name: string
+  * surname: string
 
 ### Ćwiczenie 3 - Wpisywanie danych.
 Napisz zapytania SQL żeby wypełnić każdą tabelkę co najmniej kilkoma wpisami.
@@ -21,7 +29,7 @@ Napisz formularz który będzie dodawał nowe produkty do bazy danych.
 Napisz stronę która wyświetli wszystkie produkty które są w bazie danycch.
 
 ### Ćwiczenie 5 - usuwanie danych
-Napisz stronę która będzie usuwała produkt o podanym id (id może być zakodowane w stronie).
+Napisz stronę która będzie usuwała produkt o podanym id (id może być zmienną w kodzie).
 
 
 ## Ćwiczenia samodzielne
@@ -33,8 +41,8 @@ Następnie napisz skrypt php który stworzy połączenie do tej bazy danych.
 ### Ćwiczenie 2 - Tworzenie tabel z danymi.
 W bazie danych o nazwie ```cinemas_db``` stwórz następujące tabele:
 * Kino: id: int, name: string, address: string
-* Film: id:int, name: string, opis: string
-* Bilet: id: int, ilość: int, cena:float
+* Film: id: int, name: string, opis: string
+* Bilet: id: int, ilość: int, cena: float
 * Płatność: id: int, typ: string, data: date
 
 Pamiętaj o tym żeby założyć odpowiednie atrybuty na pola (np.: każde ID powinno być kluczem głównym, być automatycznie numerowane). 
@@ -43,14 +51,14 @@ Pamiętaj że jeżeli tabelka już istnieje to nie będzie się jej dało stworz
 Dokładnie czytaj kody błędów zwracane przez MySQL.
 
 ### Ćwiczenie 2.b - Zmiana tablicy z danymi.
-Dodaj do tablicy Film kolumnę która będzie trzymała rating danego filmu (wartość numeryczna z dwoma miejscami po przecinku). Zapytanie dopisz na górze pliku exercise2.php
+Dodaj do tableli Film kolumnę, która będzie trzymała rating danego filmu (wartość numeryczna z dwoma miejscami po przecinku). Zapytanie dopisz na górze pliku exercise2.php
 
 ### Ćwiczenie 3 - Wpisywanie danych.
 Napisz zapytania SQL żeby wypełnić każdą tabelkę co najmniej kilkoma wpisami (dodaj je jako komentarz na górze pliku php).
 
 W pliku exercise3.php jest formularz który służy do tworzenia nowych wpisów w tablicach. Przeanalizuj kod HTML.
 Następnie napisz kod php który będzie wkładał przesyłane informacje do odpowiednich tabelek w MySQL. Zauważ że możesz rozróżniać który formularz został wysłany dzięki temu że pola submit o nazwie ```submit``` mają różne wartości dla każdego formularza (hint: użyj switch).
-Jeżeli chcesz przeczytać o innych sposobach rozróżniania wielu formularz na jednej stronie zajrzyj [tutaj][ref-multiple-forms].
+Jeżeli chcesz przeczytać o innych sposobach rozróżniania wielu formularzy na jednej stronie zajrzyj [tutaj][ref-multiple-forms].
 Musisz przeprowadzić też ddodatkową walidację danych:
 * Dla Filmu raiting musi być w zakresie od 0.00 do 10.00,
 * Dla Biletu cena musi być większa niż 0,
