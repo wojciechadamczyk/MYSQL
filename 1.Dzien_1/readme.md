@@ -40,10 +40,22 @@ Następnie napisz skrypt php który stworzy połączenie do tej bazy danych.
 
 ### Ćwiczenie 2 - Tworzenie tabel z danymi.
 W bazie danych o nazwie ```cinemas_db``` stwórz następujące tabele:
-* Kino: id: int, name: string, address: string
-* Film: id: int, name: string, opis: string
-* Bilet: id: int, ilość: int, cena: float
-* Płatność: id: int, typ: string, data: date
+* Kino:
+  * id: int
+  * name: string
+  * address: string
+* Film:
+  * id: int
+  * name: string
+  * opis: string
+* Bilet:
+  * id: int
+  * ilość: int
+  * cena: float
+* Płatność:
+  * id: int
+  * typ: string
+  * data: date
 
 Pamiętaj o tym żeby założyć odpowiednie atrybuty na pola (np.: każde ID powinno być kluczem głównym, być automatycznie numerowane). 
 Najpierw napisz odpowiednie zapytania SQL używając PHPmyAdmin (lub konsoli), potem w pliku exercise2.php napisz skrypt który będzie tworzył taką bazę danych (pamiętaj o stworzeniu i zamknięciu połączenia).
