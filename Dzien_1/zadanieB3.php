@@ -1,6 +1,6 @@
 <?php
 
-//Tutaj napisz swoje rozwiązanie
+//Tutaj napisz swoje rozwi�zanie
 
 ?>
 
@@ -11,7 +11,7 @@
         <input name="name" type="text" maxlength="255" value=""/><br>
         <label>Adres</label><br>
         <input name="address" type="text" maxlength="255" value=""/><br>
-        <button type="submit" name="submit" value="cinema">Wyslij</button>
+        <button type="submit" name="submit" value="cinema">Wyślij</button>
     </form>
 </div>
 
@@ -23,7 +23,7 @@
         <input name="desc" type="text" maxlength="255" value=""/><br>
         <label>Rating</label><br>
         <input name="rating" type="number" min="0" max="10"/><br>
-        <button type="submit" name="submit" value="movie">Wyslij</button>
+        <button type="submit" name="submit" value="movie">Wyślij</button>
     </form>
 </div>
 
@@ -33,7 +33,7 @@
         <input name="quantity" type="number" min="0"/><br>
         <label>Cena</label><br>
         <input name="price" type="number" min="0" step="0.01"/><br>
-        <button type="submit" name="submit" value="ticket">Wyslij</button>
+        <button type="submit" name="submit" value="ticket">Wyślij</button>
     </form>
 </div>
 
@@ -42,11 +42,11 @@
         <label>Typ platnosci</label><br>
         <select name="payment_type">
             <option value="transfer">Przelew</option>
-            <option value="cash">Gotowka</option>
+            <option value="cash">Gotówka</option>
             <option value="card">Karta</option>
         </select><br>
         <label>Data</label><br>
         <input type="date" name="payment_date"><br>
-        <button type="submit" name="submit" value="payment">Wyslij</button>
+        <button type="submit" name="submit" value="payment">Wyślij</button>
     </form>
 </div>
