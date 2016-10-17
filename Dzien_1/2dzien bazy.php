@@ -18,7 +18,3 @@
 //FOREIGN KEY(user_id) REFERENCES users(id)
 //ON DELETE CASCADE
 //);
-
-
-//INSERT INTO `users` (`name`) VALUES ('Grzegorz'); tworzymy uzytkownika grzegorz w tabeli users
-//INSERT INTO `UserAddress`(`user_id`, `city`, `street`, `house_nr`) VALUES (1, 'Warszawa', 'Marszalkowska', '25');
